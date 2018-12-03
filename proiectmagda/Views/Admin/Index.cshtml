@@ -1,6 +1,6 @@
 ﻿
 @{
-    ViewBag.Title = "Company";
+    ViewBag.Title = "Admin";
 }
 
 <!DOCTYPE html>
@@ -8,9 +8,10 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>List</title>
+    <title>Index</title>
 </head>
 <body>
+    <h1>@ViewBag.Title</h1>
     <div>
         <select class="form-control form-control-lg">
             <option>Large select</option>
@@ -19,7 +20,7 @@
             <option>Default select</option>
         </select>
         <select class="form-control form-control-sm">
-            <option>Small select</option> 
+            <option>Small select</option>
         </select>
     </div>
 </body>
