@@ -1,1 +1,2 @@
-# MagdaRepo
+# magda_test
+curs
