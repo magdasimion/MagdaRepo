@@ -7,17 +7,35 @@ using System.Web.Mvc;
 namespace proiectmagda.Controllers
 {
     public class AdminController : Controller
+
+       
+        
+        
+        
+       
+
+
+
+
+
+
     {
         // GET: Admin
         public ActionResult Index()
 
         {
-            
-        
             return View();
         }
         // GET: Admin
+        public ActionResult Tabel()
+
+        {
+            return View();
+        }
+
+        // GET: Admin
         public ActionResult List()
+        
 
         {
             var nume1 = "Andrei";

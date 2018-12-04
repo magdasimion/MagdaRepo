@@ -13,6 +13,12 @@ namespace proiectmagda.Controllers
         {
             return View();
         }
+        // GET: Company
+        public ActionResult Tabel()
+        {
+            return View();
+        }
+
         // GET: Admin
         public ActionResult List()
 

@@ -13,6 +13,7 @@ namespace proiectmagda.Controllers
         {
             return View();
         }
+       
         // GET: Admin
         public ActionResult List()
 

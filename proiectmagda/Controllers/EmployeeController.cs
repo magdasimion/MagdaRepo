@@ -13,14 +13,19 @@ namespace proiectmagda.Controllers
         {
             return View();
         }
+        // GET: Employee
+        public ActionResult Tabel()
+        {
+            return View();
+        }
         // GET: Admin
         public ActionResult List()
 
         {
 
-            var produs1 = "Coffe";
-            var produs2 = "tea";
-            var produs3 = "milk";
+            var produs1 = "Ion";
+            var produs2 = "Maria";
+            var produs3 = "Vasile";
             ViewBag.a = produs1;
             ViewBag.b = produs2;
             ViewBag.c = produs3;
@@ -40,5 +45,6 @@ namespace proiectmagda.Controllers
 
             return View();
         }
+        
     }
 }
