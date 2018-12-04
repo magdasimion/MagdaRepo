@@ -17,12 +17,24 @@ namespace proiectmagda.Controllers
         public ActionResult List()
 
         {
+            var produs1 = "Coffe";
+            var produs2 = "tea";
+            var produs3 = "milk";
+            ViewBag.a = produs1;
+            ViewBag.b = produs2;
+            ViewBag.c = produs3;
             return View();
         }
         // GET: Admin
         public ActionResult Details()
 
         {
+            var produs1 = "Coffe";
+            var produs2 = "tea";
+            var produs3 = "milk";
+            ViewBag.a = produs1;
+            ViewBag.b = produs2;
+            ViewBag.c = produs3;
             return View();
         }
     }

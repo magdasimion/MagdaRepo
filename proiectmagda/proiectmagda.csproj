@@ -178,9 +178,9 @@
     <Content Include="Views\Company\Index.cshtml" />
     <Content Include="Views\Company\List.cshtml" />
     <Content Include="Views\Company\Details.cshtml" />
-    <Content Include="Views\Employee\Index.cshtml" />
-    <Content Include="Views\Employee\List.cshtml" />
-    <Content Include="Views\Employee\Details.cshtml" />
+    <Content Include="Views\Home\Employee\Index.cshtml" />
+    <Content Include="Views\Home\Employee\List.cshtml" />
+    <Content Include="Views\Home\Employee\Details.cshtml" />
     <Content Include="Views\User\Index.cshtml" />
     <Content Include="Views\User\List.cshtml" />
     <Content Include="Views\User\Details.cshtml" />
