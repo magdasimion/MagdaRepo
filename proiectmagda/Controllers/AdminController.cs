@@ -49,7 +49,7 @@ namespace proiectmagda.Controllers
             ViewBag.d = nume4;
             ViewBag.e = nume5;
 
-            var today = DateTime.Today;
+            var today = DateTime.Now;
             ViewBag.f = today;
 
             var greeting = "Welcome";
