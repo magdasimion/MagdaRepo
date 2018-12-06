@@ -49,9 +49,17 @@ namespace proiectmagda.Controllers
             ViewBag.d = nume4;
             ViewBag.e = nume5;
 
+            var today = DateTime.Today;
+            ViewBag.f = today;
 
+            var greeting = "Welcome";
+            ViewBag.g = greeting;
+
+            var counter = 103;
+            ViewBag.h = counter;
             return View();
         }
+        
         // GET: Admin
         public ActionResult Details()
 
