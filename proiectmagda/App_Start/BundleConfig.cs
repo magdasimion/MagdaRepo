@@ -24,6 +24,7 @@ namespace proiectmagda
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                     "~/Content/fontawsome.css",
                       "~/Content/site.css"));
         }
     }
