@@ -12,15 +12,30 @@
 </head>
 <body>
     <h2>Adresa</h2>
-   
-        
-  <div id="https://goo.gl/maps/qjdLVY52Uno" style="width:100%;height:400px;">
 
-  </div>
-            
-           
 
-        
- 
+    <div id="https://goo.gl/maps/qjdLVY52Uno" style="width:100%;height:400px;">
+
+    </div>
+
+
+    @{var price = 25;}
+    
+    <div>
+        @if (price >= 30)
+        {
+            <p>The price is high.</p>
+        }
+        else if (price > 20 && price < 30)
+        {
+            <p>The price is OK.</p>
+        }
+        else
+        {
+            <p>The price is low.</p>
+        }
+    </div>
+
+
 </body>
 </html>
